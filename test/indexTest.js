@@ -66,8 +66,7 @@ describe("index.html", () => {
       const [firstImg, secondImg, thirdImg] = wrapper.querySelectorAll("img");
       expect(firstImg).to.have.attribute(
         "src",
-        "./images/transportation/transit.jpg"
-      );
+        "./images/transportation/modern-bus.jpg");
       expect(firstImg).to.have.attribute("alt", "Modern Transit");
       expect(secondImg).to.have.attribute("src", "./images/garden.jpg");
       expect(secondImg).to.have.attribute("alt", "Riyadh Garden");
